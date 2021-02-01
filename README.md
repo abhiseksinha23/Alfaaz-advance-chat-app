@@ -1,8 +1,8 @@
 ## Alfaaz-advance-chat-app
 
-#Real time chat app.
-#unlimited users can join.
-#Notifies other whenever a new user joins or leaves the chat (both by message and sound).
-#Displays who is typing currently to others.
-#Message display life whats-app (left-right for sender and receivers ). 
+#Real time chat app.</br>
+#unlimited users can join.</br>
+#Notifies other whenever a new user joins or leaves the chat (both by message and sound).</br>
+#Displays who is typing currently to others.</br>
+#Message display life whats-app (left-right for sender and receivers ). </br>
 
