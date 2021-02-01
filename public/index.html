@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Alfaaz - A realtime chat app</title>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.js"></script>
+     <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+
+    <nav>
+      <h1><u>Alfaaz - The chat app</u></h1>
+      <!-- <img class="logo" src="logo.png" alt="Logo"> -->
+    </nav>
+
+      <h5><div id="feedback" style="text-align:center;"><p><em>Status...</em></p></div></h5>
+
+  <b><div class="container"></div></b>
+
+    <div class="send">
+      <form id="send-container" action="#" method="post">
+        <input type="text" name="messageInp" id="messageInp" value="" placeholder="Type your message here!">
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+
+      <script src="/client.js"></script>
+  </body>
+</html>
