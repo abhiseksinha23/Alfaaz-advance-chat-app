@@ -1,5 +1,7 @@
 ## Alfaaz-advance-chat-app
 
+##Live Demo - https://alfaaz-chat.herokuapp.com/
+
 #Real time chat app.</br>
 #unlimited users can join.</br>
 #Notifies other whenever a new user joins or leaves the chat (both by message and sound).</br>
