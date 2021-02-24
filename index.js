@@ -3,10 +3,10 @@ const app = express();
 
 //adding Socket-io to the project
 const socket = require('socket.io');
-
+const port = process.env.PORT || 8000;
  //creating server for running node app and socket-io
-const server = app.listen(8000,()=>{
-  console.log("server connected at 8000");
+const server = app.listen(port,()=>{
+  console.log("server connected....");
 });
 
 app.use(express.static('public'));
