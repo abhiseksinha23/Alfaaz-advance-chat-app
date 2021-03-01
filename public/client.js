@@ -3,6 +3,8 @@ const name = prompt("Enter your name to join");
 
 //Establish connections between frontend and backend using the CDN in the main html file
 //Do it after the promt alert activities
+//"https://alfaaz-chat.herokuapp.com/"
+//"http://localhost:8000/"
 const socket = io.connect("https://alfaaz-chat.herokuapp.com/"); //connected it to the backend
 
 //Collecting all the elements needed to display and receive messages
@@ -30,6 +32,9 @@ const append = (message,position,sound) =>{
 form.addEventListener('submit', (e)=>{
   e.preventDefault(); //page doesn't reloads
   const message = messageInp.value;
+  if(message === ""){
+    return;
+  }
   append(`You: ${message}`,'right',0);
   socket.emit('send',message);
   messageInp.value = '';
